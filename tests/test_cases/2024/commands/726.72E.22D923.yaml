@@ -1,0 +1,8 @@
+command_id: 726.72E.22D923
+test_cases:
+- expected_values:
+    MAZDASPEED_MX_5_TP_FR_ND: 40.6
+  response: 72E0462D923CB
+- expected_values:
+    MAZDASPEED_MX_5_TP_FR_ND: 45.6
+  response: 72E0462D923E4

@@ -1,0 +1,8 @@
+command_id: 720.728.2261B1
+test_cases:
+- expected_values:
+    MAZDASPEED_MX_5_FLV: 42
+  response: 728046261B12A
+- expected_values:
+    MAZDASPEED_MX_5_FLV: 100
+  response: 728046261B164

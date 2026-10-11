@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22DD01|fc=1
+test_cases:
+- expected_values:
+    MAZDASPEED_ODO: 82262
+  response: 7E80662DD01014156
+- expected_values:
+    MAZDASPEED_ODO: 83199
+  response: 7E80662DD010144FF
+- expected_values:
+    MAZDASPEED_ODO: 83200
+  response: 7E80662DD01014500
+- expected_values:
+    MAZDASPEED_ODO: 83968
+  response: 7E80662DD01014800

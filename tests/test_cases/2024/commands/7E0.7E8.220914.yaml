@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220914
+test_cases:
+- expected_values:
+    MAZDASPEED_MX_5_APP1_V: 0.786
+  response: '7E8056209140312'
+- expected_values:
+    MAZDASPEED_MX_5_APP1_V: 1.278
+  response: 7E80562091404FE
+- expected_values:
+    MAZDASPEED_MX_5_APP1_V: 1.28
+  response: '7E8056209140500'
+- expected_values:
+    MAZDASPEED_MX_5_APP1_V: 3.085
+  response: 7E8056209140C0D

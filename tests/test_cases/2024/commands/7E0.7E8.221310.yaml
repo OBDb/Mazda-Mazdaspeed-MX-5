@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221310
+test_cases:
+- expected_values:
+    MAZDASPEED_MX_5_EOT: 10.67
+  response: 7E80562131013CB
+- expected_values:
+    MAZDASPEED_MX_5_EOT: 21.43
+  response: 7E80562131017FF
+- expected_values:
+    MAZDASPEED_MX_5_EOT: 80.32
+  response: 7E8056213102F00
+- expected_values:
+    MAZDASPEED_MX_5_EOT: 112.15
+  response: 7E8056213103B6F

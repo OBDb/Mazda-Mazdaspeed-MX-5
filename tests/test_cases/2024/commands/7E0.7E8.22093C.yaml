@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22093C
+test_cases:
+- expected_values:
+    MAZDASPEED_MX_5_ETC_ACT_DEG: 0.32812
+  response: 7E80562093C00A8
+- expected_values:
+    MAZDASPEED_MX_5_ETC_ACT_DEG: 3
+  response: 7E80562093C0600
+- expected_values:
+    MAZDASPEED_MX_5_ETC_ACT_DEG: 4.99805
+  response: 7E80562093C09FF
+- expected_values:
+    MAZDASPEED_MX_5_ETC_ACT_DEG: 86.13086
+  response: 7E80562093CAC43
