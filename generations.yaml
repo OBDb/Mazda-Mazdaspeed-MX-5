@@ -1,0 +1,8 @@
+references:
+  - "https://en.wikipedia.org/wiki/Mazda_MX-5_(NB)"
+
+generations:
+  - name: "Mazdaspeed MX-5 (NB)"
+    start_year: 2004
+    end_year: 2005
+    description: "The turbocharged Mazdaspeed version of the second-generation MX-5. Captures filed under this name also come from later MX-5s."
