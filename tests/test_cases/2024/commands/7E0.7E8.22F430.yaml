@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22F430
+test_cases:
+- expected_values:
+    MAZDASPEED_WARMUP_CLR: 14
+  response: 7E80462F4300E
+- expected_values:
+    MAZDASPEED_WARMUP_CLR: 15
+  response: 7E80462F4300F
+- expected_values:
+    MAZDASPEED_WARMUP_CLR: 16
+  response: 7E80462F43010
+- expected_values:
+    MAZDASPEED_WARMUP_CLR: 19
+  response: 7E80462F43013
+- expected_values:
+    MAZDASPEED_WARMUP_CLR: 23
+  response: 7E80462F43017
+- expected_values:
+    MAZDASPEED_WARMUP_CLR: 24
+  response: 7E80462F43018

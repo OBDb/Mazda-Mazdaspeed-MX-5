@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220324
+test_cases:
+- expected_values:
+    MAZDASPEED_HPFP_V: 1.03617
+  response: 7E80562032400D4
+- expected_values:
+    MAZDASPEED_HPFP_V: 2.48778
+  response: 7E80562032401FD
+- expected_values:
+    MAZDASPEED_HPFP_V: 2.50733
+  response: '7E8056203240201'

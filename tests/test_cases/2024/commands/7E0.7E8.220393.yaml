@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220393
+test_cases:
+- expected_values:
+    MAZDASPEED_AC_P: 86.15242
+  response: '7E8056203930129'
+- expected_values:
+    MAZDASPEED_AC_P: 148.22858
+  response: 7E80562039301FF
+- expected_values:
+    MAZDASPEED_AC_P: 149.09881
+  response: '7E8056203930202'
+- expected_values:
+    MAZDASPEED_AC_P: 308.35025
+  response: '7E8056203930427'

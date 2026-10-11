@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F4A6
+test_cases:
+- expected_values:
+    MAZDASPEED_PCM_VEH_ODO: 678
+  response: 7E80762F4A600001A7C
+- expected_values:
+    MAZDASPEED_PCM_VEH_ODO: 716.7
+  response: 7E80762F4A600001BFF
+- expected_values:
+    MAZDASPEED_PCM_VEH_ODO: 716.9
+  response: 7E80762F4A600001C01
+- expected_values:
+    MAZDASPEED_PCM_VEH_ODO: 1152.4
+  response: 7E80762F4A600002D04

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F42F
+test_cases:
+- expected_values:
+    MAZDASPEED_FLI: 7.84314
+  response: 7E80462F42F14
+- expected_values:
+    MAZDASPEED_FLI: 90.98039
+  response: 7E80462F42FE8

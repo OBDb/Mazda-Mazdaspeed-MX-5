@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    MAZDASPEED_DIST_DTC_CLR: 672
+  response: 7E80562F43102A0
+- expected_values:
+    MAZDASPEED_DIST_DTC_CLR: 1023
+  response: 7E80562F43103FF
+- expected_values:
+    MAZDASPEED_DIST_DTC_CLR: 1024
+  response: 7E80562F4310400
