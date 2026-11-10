@@ -1,0 +1,29 @@
+command_id: 720.728.222A0A
+test_cases:
+- expected_values:
+    MAZDASPEED_MX_5_TT_1_ND: 11
+  response: 72804622A0A3D
+- expected_values:
+    MAZDASPEED_MX_5_TT_1_ND: 13
+  response: 72804622A0A3F
+- expected_values:
+    MAZDASPEED_MX_5_TT_1_ND: 15
+  response: 72804622A0A41
+- expected_values:
+    MAZDASPEED_MX_5_TT_1_ND: 17
+  response: 72804622A0A43
+- expected_values:
+    MAZDASPEED_MX_5_TT_1_ND: 21
+  response: 72804622A0A47
+- expected_values:
+    MAZDASPEED_MX_5_TT_1_ND: 22
+  response: 72804622A0A48
+- expected_values:
+    MAZDASPEED_MX_5_TT_1_ND: 26
+  response: 72804622A0A4C
+- expected_values:
+    MAZDASPEED_MX_5_TT_1_ND: 29
+  response: 72804622A0A4F
+- expected_values:
+    MAZDASPEED_MX_5_TT_1_ND: 33
+  response: 72804622A0A53
