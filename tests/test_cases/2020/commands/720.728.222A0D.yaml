@@ -1,0 +1,8 @@
+command_id: 720.728.222A0D
+test_cases:
+- expected_values:
+    MAZDASPEED_MX_5_TT_4_ND: 12
+  response: 72804622A0D3E
+- expected_values:
+    MAZDASPEED_MX_5_TT_4_ND: 34
+  response: 72804622A0D54
