@@ -7,5 +7,5 @@ test_cases:
     MAZDASPEED_OAR: 0.01556
   response: 7E8056203E800FF
 - expected_values:
-    MAZDASPEED_OAR: 0
+    MAZDASPEED_OAR: -0.0069
   response: 7E8056203E8FF8F
