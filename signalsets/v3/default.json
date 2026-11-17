@@ -51,35 +51,35 @@
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "D922"}, "freq": 1, "dbgfilter": { "to": 2023 },
   "signals": [
-    {"id": "MAZDASPEED_MX_5_TP_FL_ND", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Front left pressure", "suggestedMetric": "frontLeftTirePressure"}
+    {"id": "MAZDASPEED_MX_5_TP_FL_ND", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "nullmax": 50.8, "unit": "psi" }, "name": "Front left pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "D923"}, "freq": 1, "dbgfilter": { "to": 2023 },
   "signals": [
-    {"id": "MAZDASPEED_MX_5_TP_FR_ND", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Front right pressure", "suggestedMetric": "frontRightTirePressure"}
+    {"id": "MAZDASPEED_MX_5_TP_FR_ND", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "nullmax": 50.8, "unit": "psi" }, "name": "Front right pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "D924"}, "freq": 1, "dbgfilter": { "to": 2023 },
   "signals": [
-    {"id": "MAZDASPEED_MX_5_TP_RL_ND", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear left pressure", "suggestedMetric": "rearLeftTirePressure"}
+    {"id": "MAZDASPEED_MX_5_TP_RL_ND", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "nullmax": 50.8, "unit": "psi" }, "name": "Rear left pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "D925"}, "freq": 1, "dbgfilter": { "to": 2023 },
   "signals": [
-    {"id": "MAZDASPEED_MX_5_TP_RR_ND", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear right pressure", "suggestedMetric": "rearRightTirePressure"}
+    {"id": "MAZDASPEED_MX_5_TP_RR_ND", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "nullmax": 50.8, "unit": "psi" }, "name": "Rear right pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "D926"}, "freq": 1, "dbgfilter": { "to": 2023 },
   "signals": [
-    {"id": "MAZDASPEED_MX_5_TT_FL_ND", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Front left temperature"}
+    {"id": "MAZDASPEED_MX_5_TT_FL_ND", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "nullmax": 204, "unit": "celsius" }, "name": "Front left temperature"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "D927"}, "freq": 1, "dbgfilter": { "to": 2023 },
   "signals": [
-    {"id": "MAZDASPEED_MX_5_TT_FR_ND", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Front right temperature"}
+    {"id": "MAZDASPEED_MX_5_TT_FR_ND", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "nullmax": 204, "unit": "celsius" }, "name": "Front right temperature"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "D928"}, "freq": 1, "dbgfilter": { "to": 2023 },
   "signals": [
-    {"id": "MAZDASPEED_MX_5_TT_RL_ND", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Rear left temperature"}
+    {"id": "MAZDASPEED_MX_5_TT_RL_ND", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "nullmax": 204, "unit": "celsius" }, "name": "Rear left temperature"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "D929"}, "freq": 1, "dbgfilter": { "to": 2023 },
   "signals": [
-    {"id": "MAZDASPEED_MX_5_TT_RR_ND", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Rear right temperature"}
+    {"id": "MAZDASPEED_MX_5_TT_RR_ND", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "nullmax": 204, "unit": "celsius" }, "name": "Rear right temperature"}
   ]},
 { "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "DA05"}, "freq": 0.25,
   "signals": [
@@ -274,7 +274,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03E8"}, "freq": 3600, "dbgfilter": { "to": 2015 },
   "signals": [
-    {"id": "MAZDASPEED_OAR", "fmt": { "len": 16, "max": 1, "div": 16384, "sign": true, "unit": "scalar" }, "name": "Octane adjust ratio"}
+    {"id": "MAZDASPEED_OAR", "fmt": { "len": 16, "max": 1, "min": -1, "div": 16384, "sign": true, "unit": "scalar" }, "name": "Octane adjust ratio"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03EC"}, "freq": 0.25, "dbgfilter": { "to": 2015 },
   "signals": [
@@ -825,7 +825,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F443"}, "freq": 1, "dbgfilter": { "to": 2015 },
   "signals": [
-    {"id": "MAZDASPEED_ENG_LOAD_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load, actual", "suggestedMetric": "engineLoad"}
+    {"id": "MAZDASPEED_ENG_LOAD_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load, actual", "suggestedMetric": "absoluteEngineLoad"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F45C"}, "freq": 1,
   "signals": [
